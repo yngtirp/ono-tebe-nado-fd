@@ -36,3 +36,7 @@ img {
 button {
   font: inherit;
 }
+
+li a {
+  text-decoration: none;
+}
