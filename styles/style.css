@@ -7,10 +7,18 @@
   justify-content: space-between;
 }
 
-.header__logo-image {
+.container-header-logo {
+  width: 148px;
+  height: 105px;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  margin-left: 36.52px;
+}
+
+.header-logo-image {
   width: 129.11px;
   height: 104.65px;
-  margin-left: 36px;
 }
 
 .menu {
@@ -19,8 +27,8 @@
   align-items: center; 
   list-style: circle;
   justify-content: start;
+  width: 391.48px;
 }
-
 
 .menu-adress {
   width: 240px;
@@ -31,7 +39,7 @@
   font-size: 18px;
   font-weight: 400;
   line-height: 21.13px;
-  margin-left: 25px;
+  margin-left: 26px;
   text-decoration: underline;
 }
 
@@ -56,6 +64,7 @@
   color: #fff;
   text-transform: uppercase;
   z-index: -2;
+  background-size: cover;
 }
 
 .overlay {
@@ -79,7 +88,14 @@
   font-size: 100px;
   font-weight: 700;
   line-height: 115px;
+  letter-spacing: 0.3em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  margin-bottom: 20px;
+
 }
+
 
 .cover-title__center {
   text-align: center;
@@ -87,6 +103,11 @@
 
 .cover-title__right {
   text-align: right;
+  margin: 0;
+}
+
+.last-letter {
+  letter-spacing: normal;
 }
 
 .description {
@@ -102,7 +123,7 @@
   font-size: 22px;
   font-weight: 400;
   line-height: 28px;
-  word-spacing: 19px;
+  word-spacing: 18.54px;
 }
 
 
@@ -127,15 +148,6 @@
   z-index: -2;
 }
 
-.cover {
-  position: relative;
-  background-image: url(../images/cover.jpg);
-  color: #fff;
-  text-transform: uppercase;
-  z-index: -2;
-}
-
-
 .title {
   font-size: 40px;
   font-weight: 700;
@@ -157,7 +169,6 @@
   justify-content: space-between;
   gap: 25px;
   margin-top: 27px;
-  min-height: 596px;
   width: 100%;
   margin-bottom: 40px;
 }
@@ -209,12 +220,13 @@
   font-weight: 400;
   line-height: 24px;
   text-decoration-line: none;
+  padding-top: 34.41px;
 }
 
 .text-card__more {
   font-size: 20px;
   font-weight: 400;
-  line-height: 24px;  
+  line-height: 24px;
 }
 
 .card-text-more {
