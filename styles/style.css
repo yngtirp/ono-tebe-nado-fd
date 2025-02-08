@@ -4,21 +4,12 @@
   align-items: center;
   padding-left: 50px;
   padding-right: 50px;
-  justify-content: space-between;
-}
-
-.container-header-logo {
-  width: 148px;
-  height: 105px;
-  display: flex;
-  justify-content: center;
-  align-items: start;
-  margin-left: 36.52px;
 }
 
 .header-logo-image {
   width: 129.11px;
   height: 104.65px;
+  margin-left: 45.55px;
 }
 
 .menu {
@@ -26,8 +17,6 @@
   min-height: 293px;
   align-items: center; 
   list-style: circle;
-  justify-content: start;
-  width: 391.48px;
 }
 
 .menu-adress {
@@ -39,7 +28,7 @@
   font-size: 18px;
   font-weight: 400;
   line-height: 21.13px;
-  margin-left: 26px;
+  margin-left: 25.48px;
   text-decoration: underline;
 }
 
@@ -65,6 +54,7 @@
   text-transform: uppercase;
   z-index: -2;
   background-size: cover;
+  background-position: center;
 }
 
 .overlay {
@@ -140,13 +130,6 @@
   white-space: nowrap;
 }
 
-.cover {
-  position: relative;
-  background-image: url(../images/cover.jpg);
-  color: #fff;
-  text-transform: uppercase;
-  z-index: -2;
-}
 
 .title {
   font-size: 40px;
@@ -220,7 +203,6 @@
   font-weight: 400;
   line-height: 24px;
   text-decoration-line: none;
-  padding-top: 34.41px;
 }
 
 .text-card__more {
