@@ -13,21 +13,12 @@
 
 .menu {
   display: flex;
-  list-style: circle;
   padding-top: 133px;
   justify-content: stretch;
 }
 
-.menu-adress {
-  max-width: 240px;
-  margin-left: 184px;
-  align-self: center;
-}
-
-.menu-text { 
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 21.13px;
+.menu-list-item { 
+  list-style: circle;
   margin-left: 31.48px;
 }
 
@@ -35,17 +26,25 @@
   margin-left: 32px;
 }
 
-.menu-text__accent {
-  text-decoration: none;
+.menu-list-item__accent {
+  list-style: none;
   margin: 0;
+}
+
+.menu-link {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.13px;
 }
 
 .link-active {
   text-decoration: none;
 }
 
-.menu-text-list__accent {
-  list-style: none;
+.menu-adress {
+  max-width: 240px;
+  margin-left: auto;
+  align-self: center;
 }
 
 .adress-text {
@@ -95,9 +94,8 @@
 
 }
 
-
 .cover-title__center {
-  margin-left: 330.5px;
+  text-align: center;
 }
 
 .cover-title__right {
@@ -183,11 +181,12 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  z-index: -2;
+  z-index: 0;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   padding: 48px 40px;
+  min-height: 596px;
 }
 
 .lots-item__film-card {
@@ -216,7 +215,6 @@
   font-weight: 400;
   line-height: 24px;
   text-decoration-line: none;
-  padding-top: 30px;
 }
 
 .text-card__more {
@@ -277,6 +275,7 @@
 .about-title {
   margin-top: 136px;
   margin-bottom: 100px;
+  text-transform: uppercase;
 }
 
 .about-text{
@@ -303,8 +302,8 @@
   align-items: center;
 }
 
-.menu-text__footer {
-  margin: 0;
+.footer-menu-list-item {
+  list-style: none;
 }
 
 .social {
